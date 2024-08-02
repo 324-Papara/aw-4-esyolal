@@ -1,0 +1,498 @@
+2024-08-02 14:34:37.724 [INF] Application is starting...
+2024-08-02 14:34:37.851 [INF] Start installing Hangfire SQL objects...
+2024-08-02 14:34:37.946 [INF] Hangfire SQL objects installed.
+2024-08-02 14:34:38.021 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@aw4'
+2024-08-02 14:34:38.021 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-02 14:34:38.021 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-02 14:34:38.027 [DBG] Execution loop BackgroundServerProcess:baccf43a has started in 1,4437 ms
+2024-08-02 14:34:38.029 [VRB] Server emre-pc:1912:ac140bab is announcing itself...
+2024-08-02 14:34:38.074 [INF] Server emre-pc:1912:ac140bab successfully announced in 45,1188 ms
+2024-08-02 14:34:38.075 [DBG] Execution loop ServerHeartbeatProcess:0c027f0c has started in 0,4838 ms
+2024-08-02 14:34:38.075 [INF] Server emre-pc:1912:ac140bab is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-02 14:34:38.075 [DBG] Execution loop ServerWatchdog:fab9d4ed has started in 0,1815 ms
+2024-08-02 14:34:38.075 [DBG] Execution loop ServerJobCancellationWatcher:188d4c4d has started in 0,1594 ms
+2024-08-02 14:34:38.076 [DBG] Execution loop ExpirationManager:275d0aab has started in 0,1397 ms
+2024-08-02 14:34:38.076 [DBG] Execution loop CountersAggregator:ebc58ec3 has started in 0,1591 ms
+2024-08-02 14:34:38.076 [DBG] Execution loop SqlServerHeartbeatProcess:4dc32a0e has started in 0,1173 ms
+2024-08-02 14:34:38.076 [VRB] Server emre-pc:1912:ac140bab waiting for 00:00:30 delay before sending a heartbeat
+2024-08-02 14:34:38.076 [VRB] Checking for aborted jobs...
+2024-08-02 14:34:38.076 [DBG] Aggregating records in 'Counter' table...
+2024-08-02 14:34:38.076 [DBG] Execution loop Worker:1333506b has started in 0,1853 ms
+2024-08-02 14:34:38.076 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-02 14:34:38.076 [DBG] Execution loop Worker:d2ee78bc has started in 0,2946 ms
+2024-08-02 14:34:38.076 [DBG] Execution loop Worker:6f23cfbc has started in 0,3746 ms
+2024-08-02 14:34:38.077 [VRB] No newly aborted jobs found.
+2024-08-02 14:34:38.077 [DBG] Execution loop Worker:ca2ca868 has started in 0,5687 ms
+2024-08-02 14:34:38.077 [DBG] Execution loop Worker:ec987f90 has started in 0,7641 ms
+2024-08-02 14:34:38.077 [DBG] Execution loop Worker:dd4fe6f8 has started in 1,1798 ms
+2024-08-02 14:34:38.077 [DBG] Execution loop Worker:c65c4e52 has started in 1,289 ms
+2024-08-02 14:34:38.077 [DBG] Execution loop Worker:0ea2de3a has started in 1,4128 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:ea17484c has started in 1,6358 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:3a32192d has started in 1,802 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:01a7d50d has started in 1,936 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:d5c5ae88 has started in 2,1178 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:f9948d4e has started in 2,2396 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:f40e12db has started in 2,3941 ms
+2024-08-02 14:34:38.078 [DBG] Execution loop Worker:b7cf6eae has started in 2,494 ms
+2024-08-02 14:34:38.079 [DBG] Execution loop Worker:c9a0bd9d has started in 2,6094 ms
+2024-08-02 14:34:38.079 [DBG] Execution loop Worker:b0232ac3 has started in 2,7052 ms
+2024-08-02 14:34:38.079 [DBG] Execution loop Worker:57c4bf0d has started in 2,879 ms
+2024-08-02 14:34:38.079 [DBG] Execution loop Worker:9e5b645f has started in 3,0199 ms
+2024-08-02 14:34:38.079 [DBG] Execution loop Worker:e892f9ea has started in 3,1527 ms
+2024-08-02 14:34:38.079 [DBG] Execution loop DelayedJobScheduler:c344baf9 has started in 0,173 ms
+2024-08-02 14:34:38.079 [INF] Server emre-pc:1912:ac140bab all the dispatchers started
+2024-08-02 14:34:38.080 [DBG] Execution loop RecurringJobScheduler:1508308b has started in 0,1913 ms
+2024-08-02 14:34:38.086 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-02 14:34:38.086 [DBG] Removing outdated records from the 'Job' table...
+2024-08-02 14:34:38.089 [VRB] Records from the 'Counter' table aggregated.
+2024-08-02 14:34:38.104 [VRB] Outdated records removed from the 'Job' table.
+2024-08-02 14:34:38.104 [DBG] Removing outdated records from the 'List' table...
+2024-08-02 14:34:38.108 [VRB] Outdated records removed from the 'List' table.
+2024-08-02 14:34:38.108 [DBG] Removing outdated records from the 'Set' table...
+2024-08-02 14:34:38.111 [VRB] Outdated records removed from the 'Set' table.
+2024-08-02 14:34:38.111 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-02 14:34:38.114 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-02 14:34:43.091 [VRB] Checking for aborted jobs...
+2024-08-02 14:34:43.091 [VRB] No newly aborted jobs found.
+2024-08-02 14:34:48.103 [VRB] Checking for aborted jobs...
+2024-08-02 14:34:48.103 [VRB] No newly aborted jobs found.
+2024-08-02 14:34:53.116 [VRB] Checking for aborted jobs...
+2024-08-02 14:34:53.116 [VRB] No newly aborted jobs found.
+2024-08-02 14:34:58.120 [VRB] Checking for aborted jobs...
+2024-08-02 14:34:58.120 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:03.135 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:03.135 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:08.099 [DBG] Server emre-pc:1912:ac140bab heartbeat successfully sent
+2024-08-02 14:35:08.099 [VRB] Server emre-pc:1912:ac140bab waiting for 00:00:30 delay before sending a heartbeat
+2024-08-02 14:35:08.135 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:08.135 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:13.145 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:13.145 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:18.147 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:18.147 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:23.148 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:23.148 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:28.158 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:28.158 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:33.171 [VRB] Checking for aborted jobs...
+2024-08-02 14:35:33.171 [VRB] No newly aborted jobs found.
+2024-08-02 14:35:34.782 [DBG] Hangfire Server is stopping...
+2024-08-02 14:35:34.782 [INF] Server emre-pc:1912:ac140bab caught stopping signal...
+2024-08-02 14:35:34.782 [DBG] Execution loop ServerWatchdog:fab9d4ed stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop SqlServerHeartbeatProcess:4dc32a0e stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop RecurringJobScheduler:1508308b stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop ExpirationManager:275d0aab stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop DelayedJobScheduler:c344baf9 stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop ServerJobCancellationWatcher:188d4c4d stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:c65c4e52 stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:d5c5ae88 stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:6f23cfbc stopped in 0,0093 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop CountersAggregator:ebc58ec3 stopped in 0 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:dd4fe6f8 stopped in 0,0131 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:d2ee78bc stopped in 0,0658 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:ea17484c stopped in 0,0974 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:9e5b645f stopped in 0,1611 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:01a7d50d stopped in 0,1606 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:1333506b stopped in 0,0785 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:57c4bf0d stopped in 0,133 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:ca2ca868 stopped in 0,2198 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:ec987f90 stopped in 0,2656 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:0ea2de3a stopped in 0,0202 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:f9948d4e stopped in 0,2965 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:3a32192d stopped in 0,2364 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:b0232ac3 stopped in 0,4033 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:f40e12db stopped in 0,3264 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:b7cf6eae stopped in 0,3372 ms
+2024-08-02 14:35:34.782 [DBG] Execution loop Worker:c9a0bd9d stopped in 0,4357 ms
+2024-08-02 14:35:34.783 [DBG] Execution loop Worker:e892f9ea stopped in 0,548 ms
+2024-08-02 14:35:34.783 [INF] Server emre-pc:1912:ac140bab All dispatchers stopped
+2024-08-02 14:35:34.783 [DBG] Execution loop ServerHeartbeatProcess:0c027f0c stopped in 0,0312 ms
+2024-08-02 14:35:34.784 [VRB] Server emre-pc:1912:ac140bab is reporting itself as stopped...
+2024-08-02 14:35:34.785 [DBG] Hangfire Server is stopping...
+2024-08-02 14:35:34.789 [INF] Server emre-pc:1912:ac140bab successfully reported itself as stopped in 4,9431 ms
+2024-08-02 14:35:34.789 [INF] Server emre-pc:1912:ac140bab has been stopped in total 6,5348 ms
+2024-08-02 14:35:34.789 [DBG] Execution loop BackgroundServerProcess:baccf43a stopped in 6,5737 ms
+2024-08-02 14:36:32.644 [INF] Application is starting...
+2024-08-02 14:36:32.769 [INF] Start installing Hangfire SQL objects...
+2024-08-02 14:36:32.873 [INF] Hangfire SQL objects installed.
+2024-08-02 14:36:32.947 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@aw4'
+2024-08-02 14:36:32.947 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-02 14:36:32.947 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-02 14:36:32.952 [DBG] Execution loop BackgroundServerProcess:aea8703c has started in 1,006 ms
+2024-08-02 14:36:32.952 [VRB] Server emre-pc:40572:a9fc3a8b is announcing itself...
+2024-08-02 14:36:32.993 [INF] Server emre-pc:40572:a9fc3a8b successfully announced in 40,7502 ms
+2024-08-02 14:36:32.994 [DBG] Execution loop ServerHeartbeatProcess:5f4b04bb has started in 0,4336 ms
+2024-08-02 14:36:32.994 [INF] Server emre-pc:40572:a9fc3a8b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-02 14:36:32.995 [DBG] Execution loop ServerWatchdog:c468033b has started in 0,135 ms
+2024-08-02 14:36:32.995 [DBG] Execution loop ServerJobCancellationWatcher:acc0d87f has started in 0,1212 ms
+2024-08-02 14:36:32.995 [DBG] Execution loop ExpirationManager:53b9512c has started in 0,1402 ms
+2024-08-02 14:36:32.995 [DBG] Execution loop CountersAggregator:e5289a47 has started in 0,1004 ms
+2024-08-02 14:36:32.995 [VRB] Checking for aborted jobs...
+2024-08-02 14:36:32.995 [VRB] Server emre-pc:40572:a9fc3a8b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-02 14:36:32.995 [DBG] Aggregating records in 'Counter' table...
+2024-08-02 14:36:32.995 [DBG] Execution loop SqlServerHeartbeatProcess:21ade958 has started in 0,3251 ms
+2024-08-02 14:36:32.996 [VRB] No newly aborted jobs found.
+2024-08-02 14:36:32.996 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:566b4f7d has started in 0,2249 ms
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:7edaf54e has started in 0,2897 ms
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:112baff9 has started in 0,3621 ms
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:8a3408cb has started in 0,5133 ms
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:c7fdd801 has started in 0,5916 ms
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:1fbb4ff6 has started in 0,7808 ms
+2024-08-02 14:36:32.996 [DBG] Execution loop Worker:d7beadc0 has started in 0,9713 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:383b6b50 has started in 1,1973 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:4a9989f3 has started in 1,3891 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:9f5fa080 has started in 1,5411 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:6fbbf8fe has started in 1,6445 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:e22f526f has started in 1,7955 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:8e3758c8 has started in 1,9274 ms
+2024-08-02 14:36:32.997 [DBG] Execution loop Worker:0a582dbc has started in 2,0253 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop Worker:9493e3ab has started in 2,127 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop Worker:a7227e60 has started in 2,2337 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop Worker:b1748fb5 has started in 2,3852 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop Worker:ebe76f4e has started in 2,4723 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop Worker:6846a57e has started in 2,5319 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop Worker:fe367b82 has started in 2,6486 ms
+2024-08-02 14:36:32.998 [DBG] Execution loop DelayedJobScheduler:f59e7087 has started in 0,0885 ms
+2024-08-02 14:36:32.998 [INF] Server emre-pc:40572:a9fc3a8b all the dispatchers started
+2024-08-02 14:36:32.998 [DBG] Execution loop RecurringJobScheduler:04648162 has started in 0,1541 ms
+2024-08-02 14:36:33.002 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-02 14:36:33.002 [DBG] Removing outdated records from the 'Job' table...
+2024-08-02 14:36:33.004 [VRB] Records from the 'Counter' table aggregated.
+2024-08-02 14:36:33.017 [VRB] Outdated records removed from the 'Job' table.
+2024-08-02 14:36:33.017 [DBG] Removing outdated records from the 'List' table...
+2024-08-02 14:36:33.018 [VRB] Outdated records removed from the 'List' table.
+2024-08-02 14:36:33.018 [DBG] Removing outdated records from the 'Set' table...
+2024-08-02 14:36:33.020 [VRB] Outdated records removed from the 'Set' table.
+2024-08-02 14:36:33.021 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-02 14:36:33.022 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-02 14:36:35.209 [DBG] Hangfire Server is stopping...
+2024-08-02 14:36:35.209 [INF] Server emre-pc:40572:a9fc3a8b caught stopping signal...
+2024-08-02 14:36:35.209 [DBG] Execution loop RecurringJobScheduler:04648162 stopped in 0,0769 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop CountersAggregator:e5289a47 stopped in 0,151 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop SqlServerHeartbeatProcess:21ade958 stopped in 0,1489 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop ExpirationManager:53b9512c stopped in 0,0726 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop ServerJobCancellationWatcher:acc0d87f stopped in 0,1664 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop ServerWatchdog:c468033b stopped in 0,151 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:7edaf54e stopped in 0,2743 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:566b4f7d stopped in 0,1864 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:8a3408cb stopped in 0,3592 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:383b6b50 stopped in 0,377 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:1fbb4ff6 stopped in 0,3821 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop DelayedJobScheduler:f59e7087 stopped in 0,0731 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:9f5fa080 stopped in 0,4293 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:6fbbf8fe stopped in 0,5003 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:8e3758c8 stopped in 0,5061 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:4a9989f3 stopped in 0,5186 ms
+2024-08-02 14:36:35.209 [DBG] Execution loop Worker:e22f526f stopped in 0,5597 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:9493e3ab stopped in 0,6011 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:a7227e60 stopped in 0,6558 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:0a582dbc stopped in 0,6581 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:b1748fb5 stopped in 0,6691 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:6846a57e stopped in 0,753 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:ebe76f4e stopped in 0,7204 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:112baff9 stopped in 0,8331 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:fe367b82 stopped in 0,7697 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:c7fdd801 stopped in 0,849 ms
+2024-08-02 14:36:35.210 [DBG] Execution loop Worker:d7beadc0 stopped in 0,9126 ms
+2024-08-02 14:36:35.210 [INF] Server emre-pc:40572:a9fc3a8b All dispatchers stopped
+2024-08-02 14:36:35.210 [DBG] Execution loop ServerHeartbeatProcess:5f4b04bb stopped in 0,0257 ms
+2024-08-02 14:36:35.211 [VRB] Server emre-pc:40572:a9fc3a8b is reporting itself as stopped...
+2024-08-02 14:36:35.213 [DBG] Hangfire Server is stopping...
+2024-08-02 14:36:35.216 [INF] Server emre-pc:40572:a9fc3a8b successfully reported itself as stopped in 4,9413 ms
+2024-08-02 14:36:35.216 [INF] Server emre-pc:40572:a9fc3a8b has been stopped in total 6,9796 ms
+2024-08-02 14:36:35.216 [DBG] Execution loop BackgroundServerProcess:aea8703c stopped in 7,0278 ms
+2024-08-02 14:39:36.150 [INF] Application is starting...
+2024-08-02 14:39:36.281 [INF] Start installing Hangfire SQL objects...
+2024-08-02 14:39:36.380 [INF] Hangfire SQL objects installed.
+2024-08-02 14:39:36.455 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@aw4'
+2024-08-02 14:39:36.455 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-02 14:39:36.455 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-02 14:39:36.459 [DBG] Execution loop BackgroundServerProcess:8040f43a has started in 1,0005 ms
+2024-08-02 14:39:36.460 [VRB] Server emre-pc:9764:548d6b3b is announcing itself...
+2024-08-02 14:39:36.503 [INF] Server emre-pc:9764:548d6b3b successfully announced in 42,3694 ms
+2024-08-02 14:39:36.504 [DBG] Execution loop ServerHeartbeatProcess:f00b3e6f has started in 0,4565 ms
+2024-08-02 14:39:36.504 [INF] Server emre-pc:9764:548d6b3b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-02 14:39:36.504 [DBG] Execution loop ServerWatchdog:5dc27163 has started in 0,175 ms
+2024-08-02 14:39:36.505 [DBG] Execution loop ServerJobCancellationWatcher:303735a2 has started in 0,1473 ms
+2024-08-02 14:39:36.505 [DBG] Execution loop ExpirationManager:e1e5023e has started in 0,1684 ms
+2024-08-02 14:39:36.505 [VRB] Checking for aborted jobs...
+2024-08-02 14:39:36.505 [DBG] Execution loop CountersAggregator:d429e72c has started in 0,2141 ms
+2024-08-02 14:39:36.505 [VRB] Server emre-pc:9764:548d6b3b waiting for 00:00:30 delay before sending a heartbeat
+2024-08-02 14:39:36.505 [VRB] No newly aborted jobs found.
+2024-08-02 14:39:36.505 [DBG] Execution loop SqlServerHeartbeatProcess:cf3a2e12 has started in 0,2482 ms
+2024-08-02 14:39:36.505 [DBG] Aggregating records in 'Counter' table...
+2024-08-02 14:39:36.506 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:7dbca11d has started in 0,3198 ms
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:bb3f4bfe has started in 0,4044 ms
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:9b6420eb has started in 0,5088 ms
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:02f98795 has started in 0,6076 ms
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:4e9d0bbb has started in 0,7398 ms
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:e7d1800a has started in 0,8583 ms
+2024-08-02 14:39:36.506 [DBG] Execution loop Worker:abf9a25a has started in 0,9635 ms
+2024-08-02 14:39:36.507 [DBG] Execution loop Worker:0aa2219b has started in 1,1419 ms
+2024-08-02 14:39:36.507 [DBG] Execution loop Worker:3dd39802 has started in 1,4109 ms
+2024-08-02 14:39:36.507 [DBG] Execution loop Worker:fcf8672b has started in 1,5642 ms
+2024-08-02 14:39:36.507 [DBG] Execution loop Worker:e12b3eeb has started in 1,7419 ms
+2024-08-02 14:39:36.507 [DBG] Execution loop Worker:0eca1106 has started in 1,9826 ms
+2024-08-02 14:39:36.508 [DBG] Execution loop Worker:33802cfd has started in 2,201 ms
+2024-08-02 14:39:36.508 [DBG] Execution loop Worker:ecebcd90 has started in 2,3771 ms
+2024-08-02 14:39:36.508 [DBG] Execution loop Worker:4634dcc8 has started in 2,5432 ms
+2024-08-02 14:39:36.508 [DBG] Execution loop Worker:c29e8ce9 has started in 2,7205 ms
+2024-08-02 14:39:36.508 [DBG] Execution loop Worker:78d8c5b8 has started in 2,8919 ms
+2024-08-02 14:39:36.508 [DBG] Execution loop Worker:78d2fd06 has started in 3,1085 ms
+2024-08-02 14:39:36.509 [DBG] Execution loop Worker:cbab834a has started in 3,3221 ms
+2024-08-02 14:39:36.509 [DBG] Execution loop Worker:aa0f6588 has started in 3,4352 ms
+2024-08-02 14:39:36.509 [DBG] Execution loop DelayedJobScheduler:ae62a3e7 has started in 0,2299 ms
+2024-08-02 14:39:36.509 [DBG] Execution loop RecurringJobScheduler:358a7052 has started in 0,1458 ms
+2024-08-02 14:39:36.509 [INF] Server emre-pc:9764:548d6b3b all the dispatchers started
+2024-08-02 14:39:36.513 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-02 14:39:36.513 [DBG] Removing outdated records from the 'Job' table...
+2024-08-02 14:39:36.515 [VRB] Records from the 'Counter' table aggregated.
+2024-08-02 14:39:36.527 [VRB] Outdated records removed from the 'Job' table.
+2024-08-02 14:39:36.527 [DBG] Removing outdated records from the 'List' table...
+2024-08-02 14:39:36.529 [VRB] Outdated records removed from the 'List' table.
+2024-08-02 14:39:36.529 [DBG] Removing outdated records from the 'Set' table...
+2024-08-02 14:39:36.531 [VRB] Outdated records removed from the 'Set' table.
+2024-08-02 14:39:36.531 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-02 14:39:36.533 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-02 14:39:41.513 [VRB] Checking for aborted jobs...
+2024-08-02 14:39:41.513 [VRB] No newly aborted jobs found.
+2024-08-02 14:39:44.852 [DBG] Hangfire Server is stopping...
+2024-08-02 14:39:44.852 [INF] Server emre-pc:9764:548d6b3b caught stopping signal...
+2024-08-02 14:39:44.852 [DBG] Execution loop ExpirationManager:e1e5023e stopped in 0,0902 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:0eca1106 stopped in 0,1249 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop ServerJobCancellationWatcher:303735a2 stopped in 0,1576 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop ServerWatchdog:5dc27163 stopped in 0,164 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:4e9d0bbb stopped in 0,1898 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:abf9a25a stopped in 0,2293 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop SqlServerHeartbeatProcess:cf3a2e12 stopped in 0,0904 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop CountersAggregator:d429e72c stopped in 0,2511 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:e7d1800a stopped in 0,2758 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:fcf8672b stopped in 0,2964 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop RecurringJobScheduler:358a7052 stopped in 0,3025 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop DelayedJobScheduler:ae62a3e7 stopped in 0,3056 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:e12b3eeb stopped in 0,3602 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:3dd39802 stopped in 0,3854 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:9b6420eb stopped in 0,3898 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:7dbca11d stopped in 0,4593 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:0aa2219b stopped in 0,4842 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:ecebcd90 stopped in 0,5438 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:bb3f4bfe stopped in 0,4837 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:78d2fd06 stopped in 0,6431 ms
+2024-08-02 14:39:44.853 [DBG] Execution loop Worker:78d8c5b8 stopped in 0,676 ms
+2024-08-02 14:39:44.853 [DBG] Execution loop Worker:4634dcc8 stopped in 0,6873 ms
+2024-08-02 14:39:44.853 [DBG] Execution loop Worker:c29e8ce9 stopped in 0,7394 ms
+2024-08-02 14:39:44.853 [DBG] Execution loop Worker:33802cfd stopped in 0,747 ms
+2024-08-02 14:39:44.853 [DBG] Execution loop Worker:aa0f6588 stopped in 0,7106 ms
+2024-08-02 14:39:44.853 [DBG] Execution loop Worker:cbab834a stopped in 0,8027 ms
+2024-08-02 14:39:44.852 [DBG] Execution loop Worker:02f98795 stopped in 0,6693 ms
+2024-08-02 14:39:44.853 [INF] Server emre-pc:9764:548d6b3b All dispatchers stopped
+2024-08-02 14:39:44.854 [DBG] Execution loop ServerHeartbeatProcess:f00b3e6f stopped in 0,0029 ms
+2024-08-02 14:39:44.854 [VRB] Server emre-pc:9764:548d6b3b is reporting itself as stopped...
+2024-08-02 14:39:44.857 [DBG] Hangfire Server is stopping...
+2024-08-02 14:39:44.863 [INF] Server emre-pc:9764:548d6b3b successfully reported itself as stopped in 8,8714 ms
+2024-08-02 14:39:44.863 [INF] Server emre-pc:9764:548d6b3b has been stopped in total 11,2917 ms
+2024-08-02 14:39:44.863 [DBG] Execution loop BackgroundServerProcess:8040f43a stopped in 11,3401 ms
+2024-08-02 14:39:57.298 [INF] Application is starting...
+2024-08-02 14:39:57.423 [INF] Start installing Hangfire SQL objects...
+2024-08-02 14:39:57.517 [INF] Hangfire SQL objects installed.
+2024-08-02 14:39:57.590 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@aw4'
+2024-08-02 14:39:57.590 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-02 14:39:57.590 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-02 14:39:57.594 [DBG] Execution loop BackgroundServerProcess:811a6e58 has started in 1,1451 ms
+2024-08-02 14:39:57.595 [VRB] Server emre-pc:43636:66b1454d is announcing itself...
+2024-08-02 14:39:57.637 [INF] Server emre-pc:43636:66b1454d successfully announced in 41,6711 ms
+2024-08-02 14:39:57.638 [DBG] Execution loop ServerHeartbeatProcess:c5e29761 has started in 0,4433 ms
+2024-08-02 14:39:57.638 [INF] Server emre-pc:43636:66b1454d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-02 14:39:57.638 [DBG] Execution loop ServerWatchdog:34e78479 has started in 0,1882 ms
+2024-08-02 14:39:57.639 [DBG] Execution loop ServerJobCancellationWatcher:8b0ea1e1 has started in 0,1779 ms
+2024-08-02 14:39:57.639 [DBG] Execution loop ExpirationManager:e90d8c5e has started in 0,1439 ms
+2024-08-02 14:39:57.639 [DBG] Execution loop CountersAggregator:590660f9 has started in 0,0959 ms
+2024-08-02 14:39:57.639 [VRB] Checking for aborted jobs...
+2024-08-02 14:39:57.639 [VRB] Server emre-pc:43636:66b1454d waiting for 00:00:30 delay before sending a heartbeat
+2024-08-02 14:39:57.639 [DBG] Aggregating records in 'Counter' table...
+2024-08-02 14:39:57.639 [VRB] No newly aborted jobs found.
+2024-08-02 14:39:57.639 [DBG] Execution loop SqlServerHeartbeatProcess:67c1566a has started in 0,158 ms
+2024-08-02 14:39:57.639 [DBG] Execution loop Worker:8b6184c6 has started in 0,1611 ms
+2024-08-02 14:39:57.640 [DBG] Execution loop Worker:b4ef8a49 has started in 0,233 ms
+2024-08-02 14:39:57.640 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-02 14:39:57.640 [DBG] Execution loop Worker:8fa3a975 has started in 0,4471 ms
+2024-08-02 14:39:57.640 [DBG] Execution loop Worker:1276e949 has started in 0,627 ms
+2024-08-02 14:39:57.640 [DBG] Execution loop Worker:bf552996 has started in 0,7929 ms
+2024-08-02 14:39:57.640 [DBG] Execution loop Worker:46f940d2 has started in 1,0492 ms
+2024-08-02 14:39:57.641 [DBG] Execution loop Worker:ff9a7d7b has started in 1,2773 ms
+2024-08-02 14:39:57.641 [DBG] Execution loop Worker:065cdb41 has started in 1,4316 ms
+2024-08-02 14:39:57.641 [DBG] Execution loop Worker:40f944c6 has started in 1,5803 ms
+2024-08-02 14:39:57.641 [DBG] Execution loop Worker:8056b46e has started in 1,7954 ms
+2024-08-02 14:39:57.641 [DBG] Execution loop Worker:a40c90f2 has started in 1,9616 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:96be03df has started in 2,1304 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:2060b32e has started in 2,3719 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:cce3fc2b has started in 2,612 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:a1254e91 has started in 2,788 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:ef0baf8d has started in 2,9522 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:cf860c11 has started in 3,034 ms
+2024-08-02 14:39:57.642 [DBG] Execution loop Worker:ed3bbef4 has started in 3,16 ms
+2024-08-02 14:39:57.643 [DBG] Execution loop Worker:890479dc has started in 3,3994 ms
+2024-08-02 14:39:57.643 [DBG] Execution loop Worker:edaac52d has started in 3,2893 ms
+2024-08-02 14:39:57.643 [DBG] Execution loop DelayedJobScheduler:83005593 has started in 0,2347 ms
+2024-08-02 14:39:57.643 [INF] Server emre-pc:43636:66b1454d all the dispatchers started
+2024-08-02 14:39:57.643 [DBG] Execution loop RecurringJobScheduler:8c84f3d4 has started in 0,4551 ms
+2024-08-02 14:39:57.647 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-02 14:39:57.647 [DBG] Removing outdated records from the 'Job' table...
+2024-08-02 14:39:57.649 [VRB] Records from the 'Counter' table aggregated.
+2024-08-02 14:39:57.661 [VRB] Outdated records removed from the 'Job' table.
+2024-08-02 14:39:57.661 [DBG] Removing outdated records from the 'List' table...
+2024-08-02 14:39:57.663 [VRB] Outdated records removed from the 'List' table.
+2024-08-02 14:39:57.663 [DBG] Removing outdated records from the 'Set' table...
+2024-08-02 14:39:57.665 [VRB] Outdated records removed from the 'Set' table.
+2024-08-02 14:39:57.665 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-02 14:39:57.667 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-02 14:40:01.279 [DBG] Hangfire Server is stopping...
+2024-08-02 14:40:01.280 [INF] Server emre-pc:43636:66b1454d caught stopping signal...
+2024-08-02 14:40:01.280 [DBG] Execution loop ExpirationManager:e90d8c5e stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop CountersAggregator:590660f9 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop ServerJobCancellationWatcher:8b0ea1e1 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop RecurringJobScheduler:8c84f3d4 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop SqlServerHeartbeatProcess:67c1566a stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop ServerWatchdog:34e78479 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop DelayedJobScheduler:83005593 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:ff9a7d7b stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:40f944c6 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:b4ef8a49 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:46f940d2 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:065cdb41 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:890479dc stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:2060b32e stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:8056b46e stopped in 0,0026 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:ef0baf8d stopped in 0,0162 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:8b6184c6 stopped in 0,0292 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:cf860c11 stopped in 0,0371 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:edaac52d stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:8fa3a975 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:ed3bbef4 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:1276e949 stopped in 0 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:a1254e91 stopped in 0,0041 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:96be03df stopped in 0,0349 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:cce3fc2b stopped in 0,0738 ms
+2024-08-02 14:40:01.280 [DBG] Execution loop Worker:a40c90f2 stopped in 0,1114 ms
+2024-08-02 14:40:01.283 [DBG] Hangfire Server is stopping...
+2024-08-02 14:40:01.286 [DBG] Execution loop Worker:bf552996 stopped in 5,4996 ms
+2024-08-02 14:40:01.286 [INF] Server emre-pc:43636:66b1454d All dispatchers stopped
+2024-08-02 14:40:01.286 [DBG] Execution loop ServerHeartbeatProcess:c5e29761 stopped in 0,0232 ms
+2024-08-02 14:40:01.286 [VRB] Server emre-pc:43636:66b1454d is reporting itself as stopped...
+2024-08-02 14:40:01.291 [INF] Server emre-pc:43636:66b1454d successfully reported itself as stopped in 4,5192 ms
+2024-08-02 14:40:01.291 [INF] Server emre-pc:43636:66b1454d has been stopped in total 10,8612 ms
+2024-08-02 14:40:01.291 [DBG] Execution loop BackgroundServerProcess:811a6e58 stopped in 10,9048 ms
+2024-08-02 14:40:18.271 [INF] Application is starting...
+2024-08-02 14:40:18.402 [INF] Start installing Hangfire SQL objects...
+2024-08-02 14:40:18.500 [INF] Hangfire SQL objects installed.
+2024-08-02 14:40:18.572 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@aw4'
+2024-08-02 14:40:18.573 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-08-02 14:40:18.573 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-08-02 14:40:18.578 [DBG] Execution loop BackgroundServerProcess:f945ef7c has started in 0,9891 ms
+2024-08-02 14:40:18.580 [VRB] Server emre-pc:9992:c6146d10 is announcing itself...
+2024-08-02 14:40:18.625 [INF] Server emre-pc:9992:c6146d10 successfully announced in 44,3126 ms
+2024-08-02 14:40:18.626 [DBG] Execution loop ServerHeartbeatProcess:7ec6554b has started in 0,4605 ms
+2024-08-02 14:40:18.626 [INF] Server emre-pc:9992:c6146d10 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-08-02 14:40:18.627 [DBG] Execution loop ServerWatchdog:cb993af9 has started in 0,1205 ms
+2024-08-02 14:40:18.628 [DBG] Execution loop ServerJobCancellationWatcher:100579aa has started in 0,1061 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:a05f8dbf has started in 0,7793 ms
+2024-08-02 14:40:18.628 [VRB] Server emre-pc:9992:c6146d10 waiting for 00:00:30 delay before sending a heartbeat
+2024-08-02 14:40:18.628 [DBG] Execution loop ExpirationManager:9abe64c9 has started in 0,1149 ms
+2024-08-02 14:40:18.628 [DBG] Execution loop CountersAggregator:35017e4e has started in 0,1153 ms
+2024-08-02 14:40:18.628 [DBG] Execution loop SqlServerHeartbeatProcess:f277a73c has started in 0,1211 ms
+2024-08-02 14:40:18.628 [DBG] Execution loop Worker:cfd84638 has started in 0,2246 ms
+2024-08-02 14:40:18.628 [DBG] Execution loop Worker:22a8d0b6 has started in 0,3549 ms
+2024-08-02 14:40:18.628 [DBG] Execution loop Worker:e2ff74ac has started in 0,4195 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:b115c5f6 has started in 0,5101 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:5072b5e3 has started in 0,5533 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:b22c5dec has started in 0,6068 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:ff63e011 has started in 0,6528 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:e6c2945a has started in 0,8696 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:749664ca has started in 0,9427 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:bba332a5 has started in 1,005 ms
+2024-08-02 14:40:18.629 [VRB] Checking for aborted jobs...
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:153c1803 has started in 1,103 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:5365c04f has started in 1,1748 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:b56cc4aa has started in 1,2297 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:0b863372 has started in 1,3033 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:41c5cb7b has started in 1,3817 ms
+2024-08-02 14:40:18.629 [DBG] Execution loop Worker:7014a84e has started in 1,4545 ms
+2024-08-02 14:40:18.630 [DBG] Execution loop Worker:eae9a0b5 has started in 1,6326 ms
+2024-08-02 14:40:18.630 [DBG] Execution loop Worker:64f597ae has started in 1,7926 ms
+2024-08-02 14:40:18.630 [DBG] Execution loop Worker:182902f3 has started in 2,0987 ms
+2024-08-02 14:40:18.630 [DBG] Execution loop DelayedJobScheduler:4bde7f99 has started in 0,1177 ms
+2024-08-02 14:40:18.630 [DBG] Execution loop RecurringJobScheduler:a762b961 has started in 0,078 ms
+2024-08-02 14:40:18.630 [INF] Server emre-pc:9992:c6146d10 all the dispatchers started
+2024-08-02 14:40:18.631 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-08-02 14:40:18.631 [DBG] Aggregating records in 'Counter' table...
+2024-08-02 14:40:18.639 [VRB] No newly aborted jobs found.
+2024-08-02 14:40:18.655 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-08-02 14:40:18.656 [DBG] Removing outdated records from the 'Job' table...
+2024-08-02 14:40:18.658 [VRB] Records from the 'Counter' table aggregated.
+2024-08-02 14:40:18.659 [VRB] Outdated records removed from the 'Job' table.
+2024-08-02 14:40:18.660 [DBG] Removing outdated records from the 'List' table...
+2024-08-02 14:40:18.662 [VRB] Outdated records removed from the 'List' table.
+2024-08-02 14:40:18.663 [DBG] Removing outdated records from the 'Set' table...
+2024-08-02 14:40:18.665 [VRB] Outdated records removed from the 'Set' table.
+2024-08-02 14:40:18.665 [DBG] Removing outdated records from the 'Hash' table...
+2024-08-02 14:40:18.667 [VRB] Outdated records removed from the 'Hash' table.
+2024-08-02 14:40:23.656 [VRB] Checking for aborted jobs...
+2024-08-02 14:40:23.657 [VRB] No newly aborted jobs found.
+2024-08-02 14:40:27.355 [DBG] Hangfire Server is stopping...
+2024-08-02 14:40:27.356 [INF] Server emre-pc:9992:c6146d10 caught stopping signal...
+2024-08-02 14:40:27.356 [DBG] Execution loop DelayedJobScheduler:4bde7f99 stopped in 0,1401 ms
+2024-08-02 14:40:27.356 [DBG] Execution loop SqlServerHeartbeatProcess:f277a73c stopped in 0,1415 ms
+2024-08-02 14:40:27.356 [DBG] Execution loop CountersAggregator:35017e4e stopped in 0,1761 ms
+2024-08-02 14:40:27.356 [DBG] Execution loop RecurringJobScheduler:a762b961 stopped in 0,1671 ms
+2024-08-02 14:40:27.356 [DBG] Execution loop ServerWatchdog:cb993af9 stopped in 0,1879 ms
+2024-08-02 14:40:27.356 [DBG] Execution loop ServerJobCancellationWatcher:100579aa stopped in 0,2239 ms
+2024-08-02 14:40:27.356 [DBG] Execution loop ExpirationManager:9abe64c9 stopped in 0,2236 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:b56cc4aa stopped in 0,2887 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:cfd84638 stopped in 0,311 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:e6c2945a stopped in 0,3073 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:b115c5f6 stopped in 0,3398 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:a05f8dbf stopped in 0,3407 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:e2ff74ac stopped in 0,3667 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:b22c5dec stopped in 0,3732 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:ff63e011 stopped in 0,3954 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:749664ca stopped in 0,4031 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:bba332a5 stopped in 0,4234 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:153c1803 stopped in 0,4284 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:22a8d0b6 stopped in 0,4604 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:5365c04f stopped in 0,463 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:7014a84e stopped in 0,4971 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:41c5cb7b stopped in 0,4974 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:0b863372 stopped in 0,5237 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:64f597ae stopped in 0,5386 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:eae9a0b5 stopped in 0,5468 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:182902f3 stopped in 0,5672 ms
+2024-08-02 14:40:27.357 [DBG] Execution loop Worker:5072b5e3 stopped in 0,5635 ms
+2024-08-02 14:40:27.359 [DBG] Hangfire Server is stopping...
+2024-08-02 14:40:27.373 [INF] Server emre-pc:9992:c6146d10 All dispatchers stopped
+2024-08-02 14:40:27.375 [DBG] Execution loop ServerHeartbeatProcess:7ec6554b stopped in 0,0416 ms
+2024-08-02 14:40:27.376 [VRB] Server emre-pc:9992:c6146d10 is reporting itself as stopped...
+2024-08-02 14:40:27.381 [INF] Server emre-pc:9992:c6146d10 successfully reported itself as stopped in 4,3849 ms
+2024-08-02 14:40:27.382 [INF] Server emre-pc:9992:c6146d10 has been stopped in total 25,6713 ms
+2024-08-02 14:40:27.383 [DBG] Execution loop BackgroundServerProcess:f945ef7c stopped in 26,2747 ms

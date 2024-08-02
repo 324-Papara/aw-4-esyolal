@@ -1,0 +1,13 @@
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\bin\Debug\net8.0\Para.Base.deps.json
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\bin\Debug\net8.0\Para.Base.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\bin\Debug\net8.0\Para.Base.pdb
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.csproj.AssemblyReference.cache
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.AssemblyInfoInputs.cache
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.AssemblyInfo.cs
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.sourcelink.json
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\refint\Para.Base.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\Para.Base.pdb
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Base\obj\Debug\net8.0\ref\Para.Base.dll

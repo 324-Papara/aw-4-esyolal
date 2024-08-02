@@ -1,0 +1,16 @@
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\bin\Debug\net8.0\Para.Schema.deps.json
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\bin\Debug\net8.0\Para.Schema.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\bin\Debug\net8.0\Para.Schema.pdb
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\bin\Debug\net8.0\Para.Base.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\bin\Debug\net8.0\Para.Base.pdb
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.csproj.AssemblyReference.cache
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.AssemblyInfoInputs.cache
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.AssemblyInfo.cs
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.csproj.CoreCompileInputs.cache
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.sourcelink.json
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Sch.F9E7B0A7.Up2Date
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\refint\Para.Schema.dll
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\Para.Schema.pdb
+C:\Users\Emre\Desktop\WebDev\Papara bootcamp\aw-4-esyolal\Para.Schema\obj\Debug\net8.0\ref\Para.Schema.dll
